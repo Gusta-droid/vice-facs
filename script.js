@@ -304,7 +304,95 @@ const itens = [
     img: "https://media.discordapp.net/attachments/1435003091027099818/1451769687649288263/image.png?ex=699dbba2&is=699c6a22&hm=6a76c39854c8125b1a0e8e3a0480ff564096d8f1920453a3f4dafd29ffcaf573&=&format=webp&quality=lossless&width=1522&height=856",
     cat: "DROGAS"
   },
- 
+  {
+    id: "VINHEDO",
+    nome: "VINHEDO",
+    descCurta: "Contingente: 15",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434971210684567755/1451770427327250474/image.png?ex=699dbc52&is=699c6ad2&hm=5bb0f688b7c4757605676899b59593bc4c53f2efe26f99816b0b12ba44257713&=&format=webp&quality=lossless&width=550&height=310",
+    cat: "MUNIÇÃO"
+  },
+   {
+    id: "FAVELA DO PORTO",
+    nome: "FAVELA DO PORTO",
+    descCurta: "Contingente: 15",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434971225372885093/1451770523674742929/image.png?ex=699dbc69&is=699c6ae9&hm=fb663634564606d14d8dd5c4e0ab630d4dae950d234b272f1eb67f393ce0038e&=&format=webp&quality=lossless&width=550&height=281",
+    cat: "MUNIÇÃO"
+  },
+   {
+    id: "TROPICAL VILLA",
+    nome: "TROPICAL VILLA",
+    descCurta: "Contingente: 15",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434971240065663106/1451770601625747628/image.png?ex=699dbc7c&is=699c6afc&hm=09e8604d27f46a6374f0b31bfdac38407f7f8f432e5964596f8d488937eb4f55&=&format=webp&quality=lossless&width=550&height=307",
+    cat: "MUNIÇÃO"
+  },
+   {
+    id: "FAZENDA",
+    nome: "FAZENDA",
+    descCurta: "Contingente: 15",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434971282008440872/1451770682797981867/image.png?ex=699dbc8f&is=699c6b0f&hm=2c2f4c441d66d817dd01fc5699b862941b927ed055eabc61a741473b2a7aed19&=&format=webp&quality=lossless&width=550&height=308",
+    cat: "MUNIÇÃO"
+  },
+   {
+    id: "FAVELA DO CATAVENTO",
+    nome: "FAVELA DO CATAVENTO",
+    descCurta: "Contingente: 15",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434971303965884568/1451770769301311662/image.png?ex=699dbca3&is=699c6b23&hm=7598994841888eb8bfeda731cf655a30d1386cc512fa37358ffdd5eea3d7f2a6&=&format=webp&quality=lossless&width=550&height=309",
+    cat: "MUNIÇÃO"
+  },
+   {
+    id: "YAKUZA",
+    nome: "YAKUZA",
+    descCurta: "Contingente: 15",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434971338111713444/1451770832979365951/image.png?ex=699dbcb3&is=699c6b33&hm=1bbc0856b9b07c8d13e8de5c7b311d1bac6d3afeab018817de43dec75fc9b9b6&=&format=webp&quality=lossless&width=550&height=308",
+    cat: "MUNIÇÃO"
+  },
+   {
+    id: "HELIPA",
+    nome: "HELIPA",
+    descCurta: "Contingente: 15",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434971360467226787/1451770896544170108/image.png?ex=699dbcc2&is=699c6b42&hm=befb42719753e9f0aa5986fd96d206cadf66d963fb8b28efd4f752e936b70984&=&format=webp&quality=lossless&width=550&height=307",
+    cat: "MUNIÇÃO"
+  },
+   {
+    id: "TRIAD",
+    nome: "TRIAD",
+    descCurta: "Contingente: 15",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434971418872905861/1451770989838073866/image.png?ex=699dbcd8&is=699c6b58&hm=a8c6ec24b0fd0281f4951e85935184e3d36ccae29ae7887dc37f505e0f19454f&=&format=webp&quality=lossless&width=476&height=350",
+    cat: "MUNIÇÃO"
+  },
+   {
+    id: "MANSÃO MALIBU",
+    nome: "MANSÃO MALIBU",
+    descCurta: "Contingente: 15",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1459252535511482694/1460383432843595947/image.png?ex=699e168f&is=699cc50f&hm=04bee26bd35a8434f3ee896cbcd9086793cd263a7f749862c930a18822a9d1fe&=&format=webp&quality=lossless",
+    cat: "MUNIÇÃO"
+  },
+     {
+    id: "MANSÃO FORTUNE",
+    nome: "MANSÃO FORTUNE",
+    descCurta: "Contingente: 15",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434970658504442049/1451769908198248449/image.png?ex=699dbbd6&is=699c6a56&hm=3b7445fe2a1e649771d80d8afd3c1859db54b52bae7fcbb1963422aa6a0add83&=&format=webp&quality=lossless&width=550&height=202",
+    cat: "MUNIÇÃO"
+  },
+     {
+    id: "SCARFACE",
+    nome: "SCARFACE",
+    descCurta: "Contingente: 15",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434970685574348966/1451769984475857007/image.png?ex=699dbbe8&is=699c6a68&hm=1809378833f6e4837ed654d02a923f342e34a4caf4c90b781e9e74640d5d406f&=&format=webp&quality=lossless&width=550&height=307",
+    cat: "MUNIÇÃO"
+  },
+   
 
 ];
 
