@@ -1,42 +1,69 @@
+// ================= FIREBASE =================
+
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { 
+  getFirestore, 
+  doc, 
+  setDoc, 
+  getDoc, 
+  onSnapshot 
+} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+
+//  config firebase
+const firebaseConfig = {
+  apiKey: "AIzaSyDdXm_SH0jn_9CL6GfAeDlZLZS0zmG-y94",
+  authDomain: "facsvice.firebaseapp.com",
+  projectId: "facsvice",
+  storageBucket: "facsvice.firebasestorage.app",
+  messagingSenderId: "374858768003",
+  appId: "1:374858768003:web:25545bdbafa801309c45b6",
+  measurementId: "G-CNJGHSV5GX"
+};
+
+
+
+// ================= INIT =================
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+
+// ================= SISTEMA =================
+
 const SENHA_ADMIN = "facilegal";
-let isAdmin = localStorage.getItem("isAdmin") === "true";
+let isAdmin = sessionStorage.getItem("isAdmin") === "true";
 
 const categorias = ["ARMAS","MUNIÇÃO","DROGAS","DESMANCHE","LAVAGEM"];
 
 const itens = [
 
-{
-    id:"barragem",
-    nome:"BARRAGEM",
-    descCurta:"Contingente: 30",
-    descricao:"Com 20 pessoas a fac ganha kit fac, com 35 pessoas ganha uniforme",
-    img:"URL_DA_IMAGEM",
-    cat:"ARMAS"
-},
+  {
+    id: "barragem",
+    nome: "BARRAGEM",
+    descCurta: "Contingente: 30",
+    descricao: "...",
+    img: "...",
+    cat: "ARMAS"
+  },
 
-{
-    id:"miguel lindo",
-    nome:"miguel lindo",
-    descCurta:"Contingente: 20",
-    descricao:"miguel pnc",
-    img:"URL_DA_IMAGEM",
-    cat:"ARMAS"
-},
-
-{
-    id:"miguel lindo",
-    nome:"miguel lindo",
-    descCurta:"Contingente: 10",
-    descricao:"miguel pnc",
-    img:"URL_DA_IMAGEM",
-    cat:"ARMAS"
-}
+  {
+    id: "miguel_lindo",
+    nome: "Miguel Lindo",
+    descCurta: "Contingente: 10",
+    descricao: "miguel pnc",
+    img: "URL_DA_IMAGEM",
+    cat: "ARMAS"
+  }
 
 ];
 
 
 const menu = document.getElementById("menu");
 const conteudo = document.getElementById("conteudo");
+
+
+// ================= MENU =================
 
 categorias.forEach(cat=>{
     const btn=document.createElement("button");
@@ -45,7 +72,33 @@ categorias.forEach(cat=>{
     menu.appendChild(btn);
 });
 
-categorias.forEach(cat=>{
+
+// ================= FIRESTORE STATUS =================
+
+async function salvarStatus(id, status){
+    await setDoc(doc(db,"status",id),{
+        status: status
+    });
+}
+
+async function carregarStatus(id){
+    const snap = await getDoc(doc(db,"status",id));
+
+    if(snap.exists()){
+        return snap.data().status;
+    }else{
+        await salvarStatus(id,"indisponivel");
+        return "indisponivel";
+    }
+}
+
+
+// ================= CARREGAR ITENS =================
+
+async function carregarSistema(){
+
+for(const cat of categorias){
+
     const section=document.createElement("section");
     section.id="sec-"+cat;
 
@@ -56,7 +109,8 @@ categorias.forEach(cat=>{
     const grid=document.createElement("div");
     grid.classList.add("grid");
 
-    itens.forEach(item=>{
+    for(const item of itens){
+
         if(item.cat===cat){
 
             const card=document.createElement("div");
@@ -77,39 +131,62 @@ categorias.forEach(cat=>{
             const statusBtn = card.querySelector(".status-btn");
             const detalhesBtn = card.querySelector(".details-btn");
 
-                detalhesBtn.addEventListener("click", ()=>{
+
+            detalhesBtn.onclick = ()=>{
                 abrirDetalhe(item);
-                });
+            };
 
-            const statusSalvo = localStorage.getItem("status_"+item.id);
 
-            if(statusSalvo === "disponivel"){
-                aplicarDisponivel(card,statusBtn);
-            }else{
-                aplicarIndisponivel(card,statusBtn);
-            }
+            // 🔄 ATUALIZA EM TEMPO REAL
+            onSnapshot(doc(db,"status",item.id),(docSnap)=>{
+
+                if(docSnap.exists()){
+
+                    const status = docSnap.data().status;
+
+                    if(status === "disponivel"){
+                        aplicarDisponivel(card,statusBtn);
+                    }else{
+                        aplicarIndisponivel(card,statusBtn);
+                    }
+
+                }
+
+            });
+
 
             atualizarPermissao(statusBtn);
 
-            statusBtn.addEventListener("click", ()=>{
+
+            statusBtn.onclick = async ()=>{
+
                 if(!isAdmin) return;
 
                 if(card.classList.contains("disponivel")){
-                    aplicarIndisponivel(card,statusBtn);
-                    localStorage.setItem("status_"+item.id,"indisponivel");
+                    await salvarStatus(item.id,"indisponivel");
                 }else{
-                    aplicarDisponivel(card,statusBtn);
-                    localStorage.setItem("status_"+item.id,"disponivel");
+                    await salvarStatus(item.id,"disponivel");
                 }
-            });
+
+            };
+
 
             grid.appendChild(card);
         }
-    });
+    }
 
     section.appendChild(grid);
     conteudo.appendChild(section);
-});
+}
+
+document.querySelector("nav button").click();
+
+}
+
+carregarSistema();
+
+
+// ================= STATUS =================
 
 function aplicarDisponivel(card,btn){
     card.classList.add("disponivel");
@@ -125,53 +202,75 @@ function aplicarIndisponivel(card,btn){
     btn.innerText="INDISPONÍVEL";
 }
 
+
+// ================= PERMISSÃO =================
+
 function atualizarPermissao(btn){
+
     btn.disabled = !isAdmin;
 
     document.querySelector(".login-btn").style.display = isAdmin ? "none" : "inline-block";
     document.querySelector(".logout-btn").style.display = isAdmin ? "inline-block" : "none";
 }
 
-function abrirLogin(){
+
+// ================= LOGIN =================
+
+window.abrirLogin = function(){
     document.getElementById("loginModal").style.display="flex";
 }
 
-function fecharLogin(){
+window.fecharLogin = function(){
     document.getElementById("loginModal").style.display="none";
 }
 
-function verificarSenha(){
+window.verificarSenha = function(){
+
     const senha = document.getElementById("senhaInput").value;
 
     if(senha === SENHA_ADMIN){
-        localStorage.setItem("isAdmin","true");
+
+        sessionStorage.setItem("isAdmin","true");
         location.reload();
+
     }else{
         alert("Senha incorreta!");
     }
 }
 
-function logout(){
-    localStorage.removeItem("isAdmin");
+window.logout = function(){
+
+    sessionStorage.removeItem("isAdmin");
     location.reload();
 }
 
+
+// ================= NAVEGAÇÃO =================
+
 function mostrarCategoria(cat,btn){
-    document.querySelectorAll("nav button").forEach(b=>b.classList.remove("active"));
+
+    document.querySelectorAll("nav button")
+    .forEach(b=>b.classList.remove("active"));
+
     btn.classList.add("active");
 
-    document.querySelectorAll("section").forEach(s=>s.classList.remove("active"));
-    document.getElementById("sec-"+cat).classList.add("active");
+    document.querySelectorAll("section")
+    .forEach(s=>s.classList.remove("active"));
+
+    document.getElementById("sec-"+cat)
+    .classList.add("active");
 }
 
-document.querySelector("nav button").click();
+
+// ================= MODAL =================
 
 function abrirDetalhe(item){
+
     document.getElementById("detalheTitulo").innerText = item.nome;
     document.getElementById("detalheDescricao").innerText = item.descricao;
     document.getElementById("detalheModal").style.display = "flex";
 }
 
-function fecharDetalhe(){
+window.fecharDetalhe = function(){
     document.getElementById("detalheModal").style.display = "none";
 }
