@@ -127,14 +127,7 @@ const itens = [
     img: "https://media.discordapp.net/attachments/1434969898756477104/1451767862900424736/image.png?ex=699db9ef&is=699c686f&hm=eb02268609298f43588e1cf4dda5d465d93eee740170fa32435fb36de195c7ae&=&format=webp&quality=lossless&width=550&height=321",
     cat: "ARMAS"
   },
-   {
-    id: " ...  ",
-    nome: " .... ",
-    descCurta: "Contingente: 20",
-    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "....",
-    cat: "ARMAS"
-  },
+  
    {
     id: "FAVELA DA PEDREIRA",
     nome: "FAVELA DA PEDREIRA",
