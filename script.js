@@ -4,15 +4,35 @@ let isAdmin = localStorage.getItem("isAdmin") === "true";
 const categorias = ["ARMAS","MUNIÇÃO","DROGAS","DESMANCHE","LAVAGEM"];
 
 const itens = [
+
 {
     id:"barragem",
     nome:"BARRAGEM",
     descCurta:"Contingente: 30",
     descricao:"Com 20 pessoas a fac ganha kit fac, com 35 pessoas ganha",
-    img:"https://media.discordapp.net/attachments/1434970758936789052/1451770203104084089/image.png?ex=699c6a9d&is=699b191d&hm=699f3acc7726a5334520108c733d4786152b9d5f05e9227d109e86b83100a8a9&=&format=webp&quality=lossless&width=1207&height=960",
+    img:"URL_DA_IMAGEM",
     cat:"ARMAS"
-}];
+},
 
+{
+    id:"miguel lindo",
+    nome:"miguel lindo",
+    descCurta:"Contingente: 20",
+    descricao:"miguel lindo",
+    img:"URL_DA_IMAGEM",
+    cat:"ARMAS"
+},
+
+{
+    id:"miguel lindo",
+    nome:"miguel lindo",
+    descCurta:"Contingente: 10",
+    descricao:"miguel lindo",
+    img:"URL_DA_IMAGEM",
+    cat:"ARMAS"
+}
+
+];
 
 
 const menu = document.getElementById("menu");
