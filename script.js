@@ -151,7 +151,7 @@ const itens = [
     img: "https://media.discordapp.net/attachments/1462655957992738911/1462671272197623871/image.png?ex=699dd786&is=699c8606&hm=e9812e28d9e05c64478801115ab59e836442d3c85ae41bcc43dc6eaf7e6a9faf&=&format=webp&quality=lossless",
     cat: "ARMAS"
   },
-  ,
+
 
 ];
 
