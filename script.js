@@ -9,7 +9,7 @@ const itens = [
     id:"barragem",
     nome:"BARRAGEM",
     descCurta:"Contingente: 30",
-    descricao:"Com 20 pessoas a fac ganha kit fac, com 35 pessoas ganha",
+    descricao:"Com 20 pessoas a fac ganha kit fac, com 35 pessoas ganha uniforme",
     img:"URL_DA_IMAGEM",
     cat:"ARMAS"
 },
@@ -18,7 +18,7 @@ const itens = [
     id:"miguel lindo",
     nome:"miguel lindo",
     descCurta:"Contingente: 20",
-    descricao:"miguel lindo",
+    descricao:"miguel pnc",
     img:"URL_DA_IMAGEM",
     cat:"ARMAS"
 },
@@ -27,7 +27,7 @@ const itens = [
     id:"miguel lindo",
     nome:"miguel lindo",
     descCurta:"Contingente: 10",
-    descricao:"miguel lindo",
+    descricao:"miguel pnc",
     img:"URL_DA_IMAGEM",
     cat:"ARMAS"
 }
