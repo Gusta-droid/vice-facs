@@ -1,4 +1,4 @@
-// ================= FIREBASE =================
+// fire base
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { 
@@ -23,13 +23,13 @@ const firebaseConfig = {
 
 
 
-// ================= INIT =================
+// --- init
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 
-// ================= SISTEMA =================
+// --- sistema
 
 const SENHA_ADMIN = "facilegal";
 let isAdmin = sessionStorage.getItem("isAdmin") === "true";
@@ -63,7 +63,7 @@ const menu = document.getElementById("menu");
 const conteudo = document.getElementById("conteudo");
 
 
-// ================= MENU =================
+// ----- menu 
 
 categorias.forEach(cat=>{
     const btn=document.createElement("button");
@@ -73,8 +73,7 @@ categorias.forEach(cat=>{
 });
 
 
-// ================= FIRESTORE STATUS =================
-
+// ----- fire status
 async function salvarStatus(id, status){
     await setDoc(doc(db,"status",id),{
         status: status
@@ -93,7 +92,7 @@ async function carregarStatus(id){
 }
 
 
-// ================= CARREGAR ITENS =================
+//  -----carregar itens 
 
 async function carregarSistema(){
 
@@ -186,7 +185,7 @@ document.querySelector("nav button").click();
 carregarSistema();
 
 
-// ================= STATUS =================
+// ----- status
 
 function aplicarDisponivel(card,btn){
     card.classList.add("disponivel");
@@ -203,7 +202,7 @@ function aplicarIndisponivel(card,btn){
 }
 
 
-// ================= PERMISSÃO =================
+// ----- permissao 
 
 function atualizarPermissao(btn){
 
@@ -214,7 +213,7 @@ function atualizarPermissao(btn){
 }
 
 
-// ================= LOGIN =================
+// --- login
 
 window.abrirLogin = function(){
     document.getElementById("loginModal").style.display="flex";
@@ -245,7 +244,7 @@ window.logout = function(){
 }
 
 
-// ================= NAVEGAÇÃO =================
+// --- nav
 
 function mostrarCategoria(cat,btn){
 
@@ -262,7 +261,7 @@ function mostrarCategoria(cat,btn){
 }
 
 
-// ================= MODAL =================
+// ------ modal
 
 function abrirDetalhe(item){
 
