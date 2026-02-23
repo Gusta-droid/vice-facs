@@ -1,4 +1,4 @@
-const SENHA_ADMIN = "facilegal";
+const SENHA_ADMIN = "asjpdajsdasdasdafsafsfahiófsiahhifsshafihsfiaohifosáhsfiohfis";
 let isAdmin = localStorage.getItem("isAdmin") === "true";
 
 const categorias = ["ARMAS","MUNIÇÃO","DROGAS","DESMANCHE","LAVAGEM"];
