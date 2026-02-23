@@ -42,11 +42,7 @@ const itens = [
     id: "BARRAGEM",
     nome: "BARRAGEM",
     descCurta: "Contingente: 30",
-    descricao: [
-  "20 pessoas = kit fac",
-  "35 pessoas = uniforme para a fac",
-  "45 pessoas = blindado pro 00"
-],
+    descricao: "20 pessoas = kit fac<br>35 pessoas = uniforme para a fac<br>45 pessoas = blindado pro 00",
     img: "https://media.discordapp.net/attachments/1434970758936789052/1451770203104084089/image.png?ex=699dbc1d&is=699c6a9d&hm=cc8530645f4f7ab7fc146d9a382711c266bf000d865a49814174ec5ce82accf4&=&format=webp&quality=lossless&width=1207&height=960",
     cat: "ARMAS"
   },
@@ -55,11 +51,7 @@ const itens = [
     id: "MAFIA",
     nome: "MAFIA",
     descCurta: "Contingente: 10",
-     descricao: [
-  "20 pessoas = kit fac",
-  "35 pessoas = uniforme para a fac",
-  "45 pessoas = blindado pro 00"
-],
+    descricao: "20 pessoas = kit fac<br>35 pessoas = uniforme para a fac<br>45 pessoas = blindado pro 00",
     img: "https://media.discordapp.net/attachments/1434970606302134302/1451769711871131831/image.png?ex=699dbba7&is=699c6a27&hm=a8fcd6f703ead76404036678c3a94c80413630c122042e81d81b35b08a4ad7c8&=&format=webp&quality=lossless&width=550&height=309",
     cat: "ARMAS"
   }
