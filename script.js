@@ -392,7 +392,70 @@ const itens = [
     img: "https://media.discordapp.net/attachments/1434970685574348966/1451769984475857007/image.png?ex=699dbbe8&is=699c6a68&hm=1809378833f6e4837ed654d02a923f342e34a4caf4c90b781e9e74640d5d406f&=&format=webp&quality=lossless&width=550&height=307",
     cat: "MUNIÇÃO"
   },
-   
+     {
+    id: "PACIFIC",
+    nome: "PACIFIC",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434977059649749044/1451771076488200327/image.png?ex=699dbced&is=699c6b6d&hm=2802562a977f7c92cdfd1b01f6702b5d76f532248b1fa55893498109f0dd1827&=&format=webp&quality=lossless&width=476&height=350",
+    cat: "DESMANCHE"
+  },
+    {
+    id: "FAVELA DA PRAIA",
+    nome: "FAVELA DA PRAIA",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434977084530364568/1451771195589656726/image.png?ex=699dbd09&is=699c6b89&hm=6f2d53c5c9092143c48b94a0972b16076bf8dd7060cdf7b79bbf87c3b4d15511&=&format=webp&quality=lossless&width=550&height=310",
+    cat: "DESMANCHE"
+  },
+    {
+    id: "FAVELA DA AGUA",
+    nome: "FAVELA DA AGUA",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434977135948337355/1451771238484541494/image.png?ex=699dbd13&is=699c6b93&hm=593ebe5a9e7483d99dcf59fb1ec814a05cd57956b6e21b6029d1bbbc48d3c987&=&format=webp&quality=lossless&width=550&height=308",
+    cat: "DESMANCHE"
+  },
+    {
+    id: "LACOSTE",
+    nome: "LACOSTE",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434977156638965780/1451771293417476221/image.png?ex=699dbd20&is=699c6ba0&hm=50ab998160d37acee2a861144ecd612e632e9ff863026aeb1ef95bc5787f390b&=&format=webp&quality=lossless&width=479&height=350",
+    cat: "DESMANCHE"
+  },
+    {
+    id: "HAYES AUTOS",
+    nome: "HAYES AUTOS",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434981609731391569/1451771343967228085/image.png?ex=699dbd2d&is=699c6bad&hm=483d518eef251e73b675791c54abb5210ac33a5efa4617892a1e77e827067aad&=&format=webp&quality=lossless&width=550&height=305",
+    cat: "DESMANCHE"
+  },
+    {
+    id: "HELLS ANGELS",
+    nome: "HELLS ANGELS",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434982724787114116/1451771390255562902/image.png?ex=699dbd38&is=699c6bb8&hm=658fd87f4556e39c0b1b0d9bc9a6591280d9bb903ba8d06b3ee0dd8989cfb101&=&format=webp&quality=lossless&width=550&height=308",
+    cat: "DESMANCHE"
+  },
+    {
+    id: "MOTO CLUBE",
+    nome: "MOTO CLUBE",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1435002719566958632/1451771448979882076/image.png?ex=699dbd46&is=699c6bc6&hm=3eb99edc4b132af96ebc869295907268d47e7992d6a93b19cbc58425111cef75&=&format=webp&quality=lossless&width=550&height=308",
+    cat: "DESMANCHE"
+  },
+    {
+    id: "LOST",
+    nome: "LOST",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1451772837575790612/1458916627260248199/image.png?ex=699e067d&is=699cb4fd&hm=6a3c026b222ca0100ac6151c78608284a9ce51de8a969b6e5bc00caea87b7ef9&=&format=webp&quality=lossless&width=550&height=189",
+    cat: "DESMANCHE"
+  },
 
 ];
 
