@@ -50,11 +50,19 @@ const itens = [
   {
     id: "MAFIA",
     nome: "MAFIA",
-    descCurta: "Contingente: 10",
+    descCurta: "Contingente: 20",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
     img: "https://media.discordapp.net/attachments/1434970606302134302/1451769711871131831/image.png?ex=699dbba7&is=699c6a27&hm=a8fcd6f703ead76404036678c3a94c80413630c122042e81d81b35b08a4ad7c8&=&format=webp&quality=lossless&width=550&height=309",
     cat: "ARMAS"
-  }
+  },
+   {
+    id: "MANSÃO BRANCA",
+    nome: "MANSÃO BRANCA",
+    descCurta: "Contingente: 20",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434970631761301687/1451769784185126943/image.png?ex=699dbbb9&is=699c6a39&hm=2c27665960a1cc40fda3a68600fc0e35b29d476bca3e812c4d5411088cee8127&=&format=webp&quality=lossless&width=1542&height=856",
+    cat: "ARMAS"
+  },
 
 ];
 
