@@ -456,7 +456,95 @@ const itens = [
     img: "https://media.discordapp.net/attachments/1451772837575790612/1458916627260248199/image.png?ex=699e067d&is=699cb4fd&hm=6a3c026b222ca0100ac6151c78608284a9ce51de8a969b6e5bc00caea87b7ef9&=&format=webp&quality=lossless&width=550&height=189",
     cat: "DESMANCHE"
   },
-
+   {
+    id: "CLUB77",
+    nome: "CLUB77",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434977393117761708/1451771495616348271/image.png?ex=699dbd51&is=699c6bd1&hm=cce9aeb18c168a82dcd5964c91ac8673f92bccc852f1cfeecc3a2887080f52da&=&format=webp&quality=lossless&width=1522&height=856",
+    cat: "LAVAGEM"
+  },
+  {
+    id: "WIWANG",
+    nome: "WIWANG",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434977416702595113/1451771546363363503/image.png?ex=699dbd5d&is=699c6bdd&hm=a8316fed5dc9415637154f47bd4633092e84f5d9178ec5260cbf44978e7bbdcf&=&format=webp&quality=lossless&width=550&height=310",
+    cat: "LAVAGEM"
+  },
+  {
+    id: "MANSÃO PLAYBOY",
+    nome: "MANSÃO PLAYBOY",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434988101960204428/1451771597139480797/image.png?ex=699dbd69&is=699c6be9&hm=734001698b1ebedfa2ca16722649ffec9bdcc5e335cea3806477d65871c30b74&=&format=webp&quality=lossless&width=550&height=309",
+    cat: "LAVAGEM"
+  },
+  {
+    id: "BAHAMAS",
+    nome: "BAHAMAS",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1434988118712520845/1451771642408730795/image.png?ex=699dbd74&is=699c6bf4&hm=3074933f823bc8fdb3fc1e8f74c3eb255a49542ce9474a093bac038a355ec5e1&=&format=webp&quality=lossless&width=550&height=309",
+    cat: "LAVAGEM"
+  },
+  {
+    id: "MANSÃO BOA VISTA",
+    nome: "MANSÃO BOA VISTA",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1452880804395880551/1460521337272406162/image.png?ex=699dee3d&is=699c9cbd&hm=f200084399f7b8bcc7dbe51f52088f61b62fbad264e4918cf8c89f4eba445eb1&=&format=webp&quality=lossless",
+    cat: "LAVAGEM"
+  },
+  {
+    id: "CASSINO",
+    nome: "CASSINO",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1435001137227890788/1451771695018016788/image.png?ex=699dbd80&is=699c6c00&hm=2373900c2044d9862d30f852631ebb41f3af63eb3f4057e6979df6622f1225aa&=&format=webp&quality=lossless&width=550&height=309",
+    cat: "LAVAGEM"
+  },
+  {
+    id: "VANILLA",
+    nome: "VANILLA",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1435006468939190352/1451771773996503214/image.png?ex=699dbd93&is=699c6c13&hm=829001882a0720af271a0c8a8fe08b31631d93b774b03262d09deef62264bfb0&=&format=webp&quality=lossless&width=550&height=309",
+    cat: "LAVAGEM"
+  },
+  {
+    id: "LUX",
+    nome: "LUX",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1451771852320931882/1452882720568115224/image.png?ex=699dd3b9&is=699c8239&hm=a9c3af31bcd0872851110f131d9651b16132204a6ede84fd49aa30b86c82907d&=&format=webp&quality=lossless&width=463&height=350",
+    cat: "LAVAGEM"
+  },
+  {
+    id: "LS CLUB",
+    nome: "LS CLUB",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1446921868165775392/1451771828820508733/image.png?ex=699dbda0&is=699c6c20&hm=f46e4675c845234e9a9cea059b88852b0163b11460d4d6a94336b64047961734&=&format=webp&quality=lossless&width=550&height=308",
+    cat: "LAVAGEM"
+  },
+   {
+    id: "VANILLA PALETO",
+    nome: "VANILLA PALETO",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1461048533418508339/1461049089545474090/image.png?ex=699ddf7f&is=699c8dff&hm=252bfa7d131b459a2e0724e283ae057c436312e4065280fca9730bde53fb3381&=&format=webp&quality=lossless",
+    cat: "LAVAGEM"
+  },
+  {
+    id: "VAGOS",
+    nome: "VAGOS",
+    descCurta: "Contingente: 10",
+    descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
+    img: "https://media.discordapp.net/attachments/1461179659374035080/1461180811071066172/image.png?ex=699db16c&is=699c5fec&hm=9374c901a12ae5e186b44df3fe7f6b0b04f1530661a8c13b43511e1a2ef611c0&=&format=webp&quality=lossless&width=1872&height=793",
+    cat: "LAVAGEM"
+  },
+  
 ];
 
 
