@@ -43,7 +43,7 @@ const itens = [
     nome: "BARRAGEM",
     descCurta: "Contingente: 30",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "img/barragem.png",
+    img: "https://media.discordapp.net/attachments/1434970758936789052/1451770203104084089/image.png?ex=699f0d9d&is=699dbc1d&hm=91d8fd2d9149aa7f1ab672eb37651f3b9f322a1fdc1d67b1059168f28213aeee&=&format=webp&quality=lossless&width=1207&height=960",
     cat: "ARMAS"
   },
 
