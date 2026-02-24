@@ -43,7 +43,7 @@ const itens = [
     nome: "BARRAGEM",
     descCurta: "Contingente: 30",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "img/Barragem.png",
+    img: "img/barragem.png",
     cat: "ARMAS"
   },
 
