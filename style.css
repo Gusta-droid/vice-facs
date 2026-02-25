@@ -42,7 +42,7 @@ nav button.active{
 .hero{
     height:250px;
     background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-    url("https://media.discordapp.net/attachments/1458996556727451872/1474853190867619890/1000x150.gif?ex=699f5012&is=699dfe92&hm=ac8218c246cf18a4c2e9f3e690f8efbca2f74ba14d0f17a96e87e23516d84b72&=");
+    url("img/banner.git");
     background-size:cover;
     background-position:center;
 }
@@ -139,3 +139,4 @@ section h2{ margin-bottom:30px; color:#3da9fc; }
     border-radius:6px;
     cursor:pointer;
 }
+
