@@ -245,7 +245,7 @@ const itens = [
     nome: "CASA DA PRAIA",
     descCurta: "Contingente: 10",
     descricao: "COCAINA / 20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "casadapraia",
+    img: "img/casadapraia.png",
     cat: "DROGAS"
   },
    {
@@ -485,7 +485,7 @@ const itens = [
     nome: "BAHAMAS",
     descCurta: "Contingente: 10",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "img/lavagem.png",
+    img: "img/bahamas.png",
     cat: "LAVAGEM"
   },
   {
