@@ -1,6 +1,9 @@
 {
   "hosting": {
+<<<<<<< HEAD
     "target": "main",
+=======
+>>>>>>> 6dc9c17fa3212fbadf03b774d2b1f7e39be86a73
     "public": "public",
     "ignore": [
       "firebase.json",
