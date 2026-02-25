@@ -52,7 +52,7 @@ const itens = [
     nome: "MAFIA",
     descCurta: "Contingente: 20",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "https://media.discordapp.net/attachments/1434970606302134302/1451769711871131831/image.png?ex=699dbba7&is=699c6a27&hm=a8fcd6f703ead76404036678c3a94c80413630c122042e81d81b35b08a4ad7c8&=&format=webp&quality=lossless&width=550&height=309",
+    img: "img/mafia.png",
     cat: "ARMAS"
   },
    {
@@ -60,7 +60,7 @@ const itens = [
     nome: "MANSÃO BRANCA",
     descCurta: "Contingente: 20",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "https://media.discordapp.net/attachments/1434970631761301687/1451769784185126943/image.png?ex=699dbbb9&is=699c6a39&hm=2c27665960a1cc40fda3a68600fc0e35b29d476bca3e812c4d5411088cee8127&=&format=webp&quality=lossless&width=1542&height=856",
+    img: "img/mansaobranca.png",
     cat: "ARMAS"
   },
   {
@@ -68,7 +68,7 @@ const itens = [
     nome: "CASA CAMPO",
     descCurta: "Contingente: 20",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "https://media.discordapp.net/attachments/1434970728767426702/1451770125094228109/image.png?ex=699dbc0a&is=699c6a8a&hm=edf206f4ad560ace31b85c7ee968056e96ea601b6501463f3fdd90945d64e6b0&=&format=webp&quality=lossless&width=1520&height=856",
+    img: "img/casacampo.png",
     cat: "ARMAS"
   },
    {
@@ -76,7 +76,7 @@ const itens = [
     nome: "VIDIGAL",
     descCurta: "Contingente: 20",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "https://media.discordapp.net/attachments/1434970781598875818/1451770283764748359/image.png?ex=699dbc30&is=699c6ab0&hm=0cedaf5493473f314c9e18451ef65a2cad4ac6e76d5c8f9e47ae8feba1953073&=&format=webp&quality=lossless&width=485&height=350",
+    img: "img/vidigal.png",
     cat: "ARMAS"
   },
    {
@@ -84,7 +84,7 @@ const itens = [
     nome: "CONTINENTAL",
     descCurta: "Contingente: 20",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "https://media.discordapp.net/attachments/1434970860669767812/1451770340815671296/image.png?ex=699dbc3d&is=699c6abd&hm=896b8685bad0309b0b35535b6cfa676aecdabf74a9c86a138bceba7276ad0a50&=&format=webp&quality=lossless&width=1507&height=856",
+    img: "img/continental.png",
     cat: "ARMAS"
   },
    {
@@ -92,7 +92,7 @@ const itens = [
     nome: "GALAXY",
     descCurta: "Contingente: 20",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "https://media.discordapp.net/attachments/1458232693232898250/1458253029898719416/image.png?ex=699d96b7&is=699c4537&hm=64b28af918067546b162e25c0e81adce21114e662583ce702666c904106cf689&=&format=webp&quality=lossless&width=1872&height=617",
+    img: "img/galaxy.png",
     cat: "ARMAS"
   },
    {
@@ -100,7 +100,7 @@ const itens = [
     nome: "MANSÃO STARK",
     descCurta: "Contingente: 20",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "https://media.discordapp.net/attachments/1460383474484777122/1467553800062500884/image.png?ex=699dce7b&is=699c7cfb&hm=8723b79205caa01b7f59345cbdc36c5ff2fd61b90b1a0c3a79eb7955242e698d&=&format=webp&quality=lossless&width=550&height=292",
+    img: "img/mansaostark.png",
     cat: "ARMAS"
   },
    {
@@ -108,7 +108,7 @@ const itens = [
     nome: "MANSÃO DA ILHA",
     descCurta: "Contingente: 20",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "https://media.discordapp.net/attachments/1460976194852749342/1461045288268464282/image.png?ex=699ddbf5&is=699c8a75&hm=54c340d8b0cc1ce8af4bed2aadf0b5033ca62dddd5d74159c1ea42023b36e3f9&=&format=webp&quality=lossless&width=550&height=276",
+    img: "img/mansaodailha.png",
     cat: "ARMAS"
   },
    {
@@ -116,7 +116,7 @@ const itens = [
     nome: "CASA PERDIDA",
     descCurta: "Contingente: 20",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "https://media.discordapp.net/attachments/1435003795200278689/1451769284069032077/image.png?ex=699dbb41&is=699c69c1&hm=96712076b17201f097bb8a21d86f4da232acf7fe65ad1b7713a4815c6c843ada&=&format=webp&quality=lossless&width=412&height=350",
+    img: "img/casaperdida.png",
     cat: "ARMAS"
   },
    {
@@ -124,7 +124,7 @@ const itens = [
     nome: "FAVELA DO MORRO",
     descCurta: "Contingente: 20",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "https://media.discordapp.net/attachments/1434969898756477104/1451767862900424736/image.png?ex=699db9ef&is=699c686f&hm=eb02268609298f43588e1cf4dda5d465d93eee740170fa32435fb36de195c7ae&=&format=webp&quality=lossless&width=550&height=321",
+    img: "img/faveladomorro.png",
     cat: "ARMAS"
   },
 
@@ -133,7 +133,7 @@ const itens = [
     nome: "FAVELA DA PEDREIRA",
     descCurta: "Contingente: 20",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "https://media.discordapp.net/attachments/1434969542123196428/1451767748643389552/image.png?ex=699db9d3&is=699c6853&hm=63f924564381e3a9c7e47974cd943b89d5223172921b16c0765dc306a82d83bf&=&format=webp&quality=lossless&width=1641&height=856",
+    img: "img/faveladapedreira.png",
     cat: "ARMAS"
   },
    {
@@ -141,7 +141,7 @@ const itens = [
     nome: "BUNKER",
     descCurta: "Contingente: 20",
     descricao: "20 pessoas = kit fac / 35 pessoas = uniforme para a fac / 45 pessoas = blindado pro 00",
-    img: "https://media.discordapp.net/attachments/1462655957992738911/1462671272197623871/image.png?ex=699dd786&is=699c8606&hm=e9812e28d9e05c64478801115ab59e836442d3c85ae41bcc43dc6eaf7e6a9faf&=&format=webp&quality=lossless",
+    img: "img/bunker.png",
     cat: "ARMAS"
   },
    {
