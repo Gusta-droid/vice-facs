@@ -139,4 +139,22 @@ section h2{ margin-bottom:30px; color:#3da9fc; }
     border-radius:6px;
     cursor:pointer;
 }
+/* Rodapé */
+.rodape {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+
+  background: #111;
+  color: #aaa;
+  font-size: 14px;
+
+  border-top: 1px solid #222 ;
+}
+
+.rodape span {
+  color: #00bfff;
+  font-weight: bold;
+}
 
