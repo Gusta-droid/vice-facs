@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "facsvice"
-  }
+  },
+  "targets": {
+    "facsvice": {
+      "hosting": {
+        "main": [
+          "facsvise"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
