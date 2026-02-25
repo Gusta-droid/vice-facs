@@ -31,7 +31,7 @@ const db = getFirestore(app);
 
 // --- sistema
 
-const SENHA_ADMIN = "facilegal";
+const SENHA_ADMIN = "gustarlq";
 let isAdmin = sessionStorage.getItem("isAdmin") === "true";
 
 const categorias = ["ARMAS","MUNIÇÃO","DROGAS","DESMANCHE","LAVAGEM"];
