@@ -158,3 +158,21 @@ section h2{ margin-bottom:30px; color:#3da9fc; }
   font-weight: bold;
 }
 
+/* BOTÃO DISCORD */
+
+
+.discord-btn{
+  color:#5865F2;
+  font-size:22px;
+  margin-right:12px;
+  text-decoration:none;
+  display:flex;
+  align-items:center;
+  transition:0.3s;
+}
+
+.discord-btn:hover{
+  color:#ffffff;
+  transform:scale(1.2);
+}
+
