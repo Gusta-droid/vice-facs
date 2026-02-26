@@ -787,22 +787,31 @@ function adicionarNaDisponiveis(item){
 
     if(!grid) return;
 
-    // evita duplicar
+    // evita duplicação
     if(document.getElementById("disp-"+item.id)) return;
 
-    const clone = document.createElement("div");
-    clone.classList.add("card");
-    clone.id = "disp-"+item.id;
+    const card = document.createElement("div");
+    card.classList.add("card","disponivel"); // ---- já fica verde
+    card.id = "disp-"+item.id;
 
-    clone.innerHTML = `
+    card.innerHTML = `
         <img src="${item.img}">
         <div class="info">
             <h3>${item.nome}</h3>
             <p>${item.descCurta}</p>
+            <p style="color:#00ff88;font-weight:600;">
+                Categoria: ${item.cat}
+            </p>
+            <div class="actions">
+                <button class="details-btn">DETALHES</button>
+            </div>
         </div>
     `;
 
-    grid.appendChild(clone);
+    const detalhesBtn = card.querySelector(".details-btn");
+    detalhesBtn.onclick = ()=> abrirDetalhe(item);
+
+    grid.appendChild(card);
 }
 
 function removerDaDisponiveis(id){
