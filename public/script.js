@@ -34,7 +34,7 @@ const db = getFirestore(app);
 const SENHA_ADMIN = "gustarlq";
 let isAdmin = sessionStorage.getItem("isAdmin") === "true";
 
-const categorias = ["ARMAS","MUNIÇÃO","DROGAS","DESMANCHE","LAVAGEM"];
+const categorias = ["DISPONÍVEIS","ARMAS","MUNIÇÃO","DROGAS","DESMANCHE","LAVAGEM"];
 
 const itens = [
 
@@ -584,8 +584,23 @@ async function carregarStatus(id){
 //  -----carregar itens 
 
 async function carregarSistema(){
+  //  seção DISPONÍVEIS
+    const secDisponiveis = document.createElement("section");
+      secDisponiveis.id = "sec-DISPONÍVEIS";
+
+    const tituloDisp = document.createElement("h2");
+          tituloDisp.textContent = "DISPONÍVEIS";
+      secDisponiveis.appendChild(tituloDisp);
+
+    const gridDisp = document.createElement("div");
+          gridDisp.classList.add("grid");
+      secDisponiveis.appendChild(gridDisp);
+
+conteudo.appendChild(secDisponiveis);
 
 for(const cat of categorias){
+
+    if(cat === "DISPONÍVEIS") continue;
 
     const section=document.createElement("section");
     section.id="sec-"+cat;
@@ -625,7 +640,7 @@ for(const cat of categorias){
             };
 
 
-            // 🔄 ATUALIZA EM TEMPO REAL
+            //  ATUALIZA EM TEMPO REAL
             onSnapshot(doc(db,"status",item.id),(docSnap)=>{
 
                 if(docSnap.exists()){
@@ -633,10 +648,12 @@ for(const cat of categorias){
                     const status = docSnap.data().status;
 
                     if(status === "disponivel"){
-                        aplicarDisponivel(card,statusBtn);
+                      aplicarDisponivel(card,statusBtn);
+                      adicionarNaDisponiveis(item);
                     }else{
-                        aplicarIndisponivel(card,statusBtn);
-                    }
+                      aplicarIndisponivel(card,statusBtn);
+                      removerDaDisponiveis(item.id);
+                  }
 
                 }
 
@@ -761,4 +778,37 @@ function abrirDetalhe(item){
 
 window.fecharDetalhe = function(){
     document.getElementById("detalheModal").style.display = "none";
+}
+// ===== ABA DISPONÍVEIS
+
+function adicionarNaDisponiveis(item){
+
+    const grid = document.querySelector("#sec-DISPONÍVEIS .grid");
+
+    if(!grid) return;
+
+    // evita duplicar
+    if(document.getElementById("disp-"+item.id)) return;
+
+    const clone = document.createElement("div");
+    clone.classList.add("card");
+    clone.id = "disp-"+item.id;
+
+    clone.innerHTML = `
+        <img src="${item.img}">
+        <div class="info">
+            <h3>${item.nome}</h3>
+            <p>${item.descCurta}</p>
+        </div>
+    `;
+
+    grid.appendChild(clone);
+}
+
+function removerDaDisponiveis(id){
+
+    const card = document.getElementById("disp-"+id);
+    if(card){
+        card.remove();
+    }
 }
