@@ -165,31 +165,57 @@ section h2{ margin-bottom:30px; color:#3da9fc; }
   font-weight: bold;
 }
 
-/* ===== BOTÃO DISCORD ===== */
+/* ===== BOTÃO DISCORD NEON ===== */
 
 .discord-btn{
     color:#5865F2;
-    font-size:26px;
+    font-size:22px;
     text-decoration:none;
+
     display:flex;
     align-items:center;
-    transition:0.3s;
+    justify-content:center;
+
+    width:40px;
+    height:40px;
+
+    border-radius:50%;
+    background:rgba(88,101,242,0.15);
+
+    transition:all 0.3s ease;
+
+    /* brilho base */
+    box-shadow:
+        0 0 6px #5865F2,
+        0 0 12px #5865F2,
+        0 0 25px #5865F2;
+
+    animation: discordGlow 2s infinite alternate;
 }
 
-/* brilho neon */
-.discord-btn i{
-    filter: drop-shadow(0 0 6px #5865F2)
-            drop-shadow(0 0 12px #5865F2);
-}
-
-/* hover gamer */
+/* hover */
 .discord-btn:hover{
     transform:scale(1.2);
+
+    box-shadow:
+        0 0 12px #5865F2,
+        0 0 30px #5865F2,
+        0 0 55px #5865F2;
 }
 
-.discord-btn:hover i{
-    filter: drop-shadow(0 0 10px #5865F2)
-            drop-shadow(0 0 20px #5865F2)
-            drop-shadow(0 0 35px #5865F2);
+/* ===== ANIMAÇÃO NEON ===== */
+@keyframes discordGlow{
+    from{
+        box-shadow:
+            0 0 6px #5865F2,
+            0 0 12px #5865F2,
+            0 0 25px #5865F2;
+    }
+    to{
+        box-shadow:
+            0 0 12px #5865F2,
+            0 0 30px #5865F2,
+            0 0 50px #5865F2;
+    }
 }
 
