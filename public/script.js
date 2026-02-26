@@ -800,7 +800,7 @@ function adicionarNaDisponiveis(item){
             <h3>${item.nome}</h3>
             <p>${item.descCurta}</p>
             <p style="color:#00ff88;font-weight:600;">
-                Categoria: ${item.cat}
+                 ${item.cat}
             </p>
             <div class="actions">
                 <button class="details-btn">DETALHES</button>
