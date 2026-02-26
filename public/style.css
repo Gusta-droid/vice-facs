@@ -13,6 +13,13 @@ header{
 
 .logo{ font-size:22px; font-weight:700; }
 
+/*  ALINHAMENTO ADMIN */
+.admin-area{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
 .admin-area button{
     padding:6px 12px;
     border:none;
@@ -158,21 +165,31 @@ section h2{ margin-bottom:30px; color:#3da9fc; }
   font-weight: bold;
 }
 
-/* BOTÃO DISCORD */
-
+/* ===== BOTÃO DISCORD ===== */
 
 .discord-btn{
-  color:#5865F2;
-  font-size:22px;
-  margin-right:12px;
-  text-decoration:none;
-  display:flex;
-  align-items:center;
-  transition:0.3s;
+    color:#5865F2;
+    font-size:26px;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    transition:0.3s;
 }
 
+/* brilho neon */
+.discord-btn i{
+    filter: drop-shadow(0 0 6px #5865F2)
+            drop-shadow(0 0 12px #5865F2);
+}
+
+/* hover gamer */
 .discord-btn:hover{
-  color:#ffffff;
-  transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+.discord-btn:hover i{
+    filter: drop-shadow(0 0 10px #5865F2)
+            drop-shadow(0 0 20px #5865F2)
+            drop-shadow(0 0 35px #5865F2);
 }
 
