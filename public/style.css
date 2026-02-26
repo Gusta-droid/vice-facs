@@ -17,7 +17,7 @@ header{
 .admin-area{
     display:flex;
     align-items:center;
-    gap:12px;
+    gap:25px;
 }
 
 .admin-area button{
@@ -165,10 +165,9 @@ section h2{ margin-bottom:30px; color:#3da9fc; }
   font-weight: bold;
 }
 
-/* ===== BOTÃO DISCORD NEON ===== */
-
+/* ===== DISCORD NEON PRO ===== */
 .discord-btn{
-    color:#5865F2;
+    color:#ffffff;
     font-size:22px;
     text-decoration:none;
 
@@ -176,46 +175,41 @@ section h2{ margin-bottom:30px; color:#3da9fc; }
     align-items:center;
     justify-content:center;
 
-    width:40px;
-    height:40px;
+    width:42px;
+    height:42px;
 
     border-radius:50%;
-    background:rgba(88,101,242,0.15);
 
-    transition:all 0.3s ease;
+    background:#5865F2;
 
-    /* brilho base */
-    box-shadow:
-        0 0 6px #5865F2,
-        0 0 12px #5865F2,
-        0 0 25px #5865F2;
-
-    animation: discordGlow 2s infinite alternate;
-}
-
-/* hover */
-.discord-btn:hover{
-    transform:scale(1.2);
+    transition:0.3s ease;
 
     box-shadow:
-        0 0 12px #5865F2,
-        0 0 30px #5865F2,
-        0 0 55px #5865F2;
+        0 0 10px #5865F2,
+        0 0 25px #5865F2,
+        0 0 50px #5865F2,
+        0 0 80px #5865F2;
+
+    animation:discordGlow 1.5s infinite alternate;
 }
 
-/* ===== ANIMAÇÃO NEON ===== */
+/* brilho pulsando */
 @keyframes discordGlow{
     from{
         box-shadow:
-            0 0 6px #5865F2,
-            0 0 12px #5865F2,
-            0 0 25px #5865F2;
+            0 0 10px #5865F2,
+            0 0 25px #5865F2,
+            0 0 50px #5865F2;
     }
     to{
         box-shadow:
-            0 0 12px #5865F2,
-            0 0 30px #5865F2,
-            0 0 50px #5865F2;
+            0 0 20px #5865F2,
+            0 0 45px #5865F2,
+            0 0 90px #5865F2;
     }
+}
+
+.discord-btn:hover{
+    transform:scale(1.2) rotate(5deg);
 }
 
