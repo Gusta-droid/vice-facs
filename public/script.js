@@ -720,6 +720,15 @@ document.querySelector("nav button").click();
 
 carregarSistema();
 
+// MASTER vê painel
+
+if(isMaster){
+    const painel = document.getElementById("masterPanel");
+    if(painel){
+        painel.style.display = "block";
+    }
+}
+
 
 // ----- status
 
