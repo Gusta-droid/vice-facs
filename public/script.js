@@ -927,3 +927,24 @@ alert("FAC criada!");
 
 location.reload();
 }
+
+// ===== ABRIR MODAL ADD FAC (SÓ MASTER) =====
+window.abrirAddFac = function(){
+
+    if(!isMaster) return;
+
+    const modal = document.getElementById("addFacModal");
+
+    if(modal){
+        modal.style.display = "flex";
+    }
+}
+
+// ===== FECHAR MODAL =====
+window.fecharAddFac = function(){
+    const modal = document.getElementById("addFacModal");
+
+    if(modal){
+        modal.style.display = "none";
+    }
+}
