@@ -35,6 +35,16 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 </header>
 
 <div class="hero"></div>
+
+<!--  PAINEL MASTER --->
+<div id="masterPanel" style="display:none; padding:15px;">
+
+    <button onclick="abrirAddFac()" class="master-btn">
+        ➕ Adicionar FAC
+    </button>
+
+</div>
+
 <div class="container" id="conteudo"></div>
 
 <!-- modal LOGIN -->
@@ -63,6 +73,33 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
   Desenvolvido por <span>Dev Gusta 🚀</span>
 </footer>
 
+<!-- MODAL ADICIONAR FAC -->
+<div id="addFacModal" class="modal" style="display:none;">
+
+<div class="modal-box">
+
+<h2>Adicionar FAC</h2>
+
+<input id="novaNome" placeholder="Nome da FAC">
+
+<select id="novaCategoria">
+<option>ARMAS</option>
+<option>MUNIÇÃO</option>
+<option>DROGAS</option>
+<option>DESMANCHE</option>
+<option>LAVAGEM</option>
+</select>
+
+<input id="novaImagem" placeholder="Imagem (ex: img/fac.png)">
+
+<textarea id="novaDescricao"
+placeholder="Descrição da FAC"></textarea>
+
+<button onclick="salvarNovaFac()">Salvar</button>
+<button onclick="fecharAddFac()">Cancelar</button>
+
+</div>
+</div>
 
 </body>
 </html>

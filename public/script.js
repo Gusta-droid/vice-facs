@@ -1,12 +1,13 @@
 // fire base
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-import { 
-  getFirestore, 
-  doc, 
-  setDoc, 
-  getDoc, 
-  onSnapshot 
+import {
+getFirestore,
+doc,
+setDoc,
+getDoc,
+onSnapshot,
+deleteDoc
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 
@@ -33,6 +34,15 @@ const db = getFirestore(app);
 
 const SENHA_ADMIN = "gustarlq";
 let isAdmin = sessionStorage.getItem("isAdmin") === "true";
+
+const SENHA_MASTER = "viceMASTER";
+let isMaster = sessionStorage.getItem("isMaster") === "true";
+
+// mostrar painel master
+if(isMaster){
+    const painel = document.getElementById("masterPanel");
+    if(painel) painel.style.display = "block";
+}
 
 const categorias = ["DISPONÍVEIS","ARMAS","MUNIÇÃO","DROGAS","DESMANCHE","LAVAGEM"];
 
@@ -674,6 +684,26 @@ for(const cat of categorias){
                 }
 
             };
+            // ✅ BOTÃO REMOVER (SÓ MASTER)
+                if(isMaster){
+
+                const removerBtn = document.createElement("button");
+                    removerBtn.textContent = "REMOVER";
+                    removerBtn.classList.add("remove-btn");
+
+                    removerBtn.onclick = async ()=>{
+
+                if(!confirm("Remover esta FAC?")) return;
+
+                await deleteDoc(doc(db,"status",item.id));
+
+                    card.remove();
+                    };
+
+                  card.querySelector(".actions")
+                    appendChild(removerBtn);
+
+                  }
 
 
             grid.appendChild(card);
@@ -733,14 +763,25 @@ window.verificarSenha = function(){
 
     const senha = document.getElementById("senhaInput").value;
 
+    //  super admin
+    if(senha === SENHA_MASTER){
+
+        sessionStorage.setItem("isMaster","true");
+        sessionStorage.setItem("isAdmin","true");
+
+        location.reload();
+        return;
+    }
+
+    //  basic admin
     if(senha === SENHA_ADMIN){
 
         sessionStorage.setItem("isAdmin","true");
         location.reload();
-
-    }else{
-        alert("Senha incorreta!");
+        return;
     }
+
+    alert("Senha incorreta!");
 }
 
 window.logout = function(){
@@ -821,4 +862,59 @@ function removerDaDisponiveis(id){
     if(card){
         card.remove();
     }
+}
+
+// master
+
+// abrir modal
+window.abrirAddFac = function(){
+document.getElementById("addFacModal").style.display="flex";
+}
+
+// fechar modal
+window.fecharAddFac = function(){
+document.getElementById("addFacModal").style.display="none";
+}
+
+
+// funciton gusta - n sei se esta certo 
+window.salvarNovaFac = async function(){
+
+const nome =
+document.getElementById("novaNome").value;
+
+const categoria =
+document.getElementById("novaCategoria").value;
+
+const imagem =
+document.getElementById("novaImagem").value;
+
+const descricao =
+document.getElementById("novaDescricao").value;
+
+if(!nome){
+alert("Digite o nome");
+return;
+}
+
+// cria ID automático
+const id = nome
+.replace(/\s+/g,"_")
+.toUpperCase();
+
+await setDoc(
+doc(db,"status",id),
+{
+nome:nome,
+cat:categoria,
+img:imagem,
+descricao:descricao,
+descCurta:"Contingente: 0",
+status:"indisponivel"
+}
+);
+
+alert("FAC criada!");
+
+location.reload();
 }
