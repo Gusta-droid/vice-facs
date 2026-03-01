@@ -877,7 +877,15 @@ function removerDaDisponiveis(id){
 
 // abrir modal
 window.abrirAddFac = function(){
-document.getElementById("addFacModal").style.display="flex";
+
+    //  só MASTER pode abrir
+    if(!isMaster) return;
+
+    const modal = document.getElementById("addFacModal");
+
+    if(modal){
+        modal.style.display = "flex";
+    }
 }
 
 // fechar modal
@@ -948,3 +956,8 @@ window.fecharAddFac = function(){
         modal.style.display = "none";
     }
 }
+// ngm abre painel sozinho
+window.onload = () => {
+    document.querySelectorAll(".modal")
+        .forEach(m => m.style.display = "none");
+};
