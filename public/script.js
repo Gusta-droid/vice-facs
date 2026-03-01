@@ -824,7 +824,7 @@ function abrirDetalhe(item){
     document.getElementById("detalheTitulo").innerText = item.nome;
     document.getElementById("detalheDescricao").innerHTML =
     item.descricao.split("\n").join("<br>");
-    document.getElementById("detalheModal").style.display = "flex";
+    document.getElementById("detalheModal").style.display = "none";
 }
 
 window.fecharDetalhe = function(){
