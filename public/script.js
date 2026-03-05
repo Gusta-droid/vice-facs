@@ -49,8 +49,8 @@ const categorias = ["DISPONÍVEIS","ARMAS","MUNIÇÃO","DROGAS","DESMANCHE","LAV
 const itens = [
 
   {
-    id: "BARRAGEM",
-    nome: "🎁 RECOMPENSAS POR MEMBROS NA FACÇÃO 🎁",
+    id: "🎁 RECOMPENSAS POR MEMBROS NA FACÇÃO 🎁",
+    nome: "BARRAGEM",
     descCurta: "Contingente: 30",
     descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/barragem.png",
