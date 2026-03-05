@@ -61,7 +61,7 @@ const itens = [
     id: "MAFIA",
     nome: "MAFIA",
     descCurta: "Contingente: 20",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/mafia.png",
     cat: "ARMAS"
   },
@@ -69,7 +69,7 @@ const itens = [
     id: "MANSÃO BRANCA",
     nome: "MANSÃO BRANCA",
     descCurta: "Contingente: 20",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/mansaobranca.png",
     cat: "ARMAS"
   },
@@ -77,7 +77,7 @@ const itens = [
     id: "CASA CAMPO",
     nome: "CASA CAMPO",
     descCurta: "Contingente: 20",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/casacampo.png",
     cat: "ARMAS"
   },
@@ -85,7 +85,7 @@ const itens = [
     id: "VIDIGAL",
     nome: "VIDIGAL",
     descCurta: "Contingente: 20",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/vidigal.png",
     cat: "ARMAS"
   },
@@ -93,7 +93,7 @@ const itens = [
     id: "CONTINENTAL",
     nome: "CONTINENTAL",
     descCurta: "Contingente: 20",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/continental.png",
     cat: "ARMAS"
   },
@@ -101,7 +101,7 @@ const itens = [
     id: "GALAXY",
     nome: "GALAXY",
     descCurta: "Contingente: 20",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/galaxy.png",
     cat: "ARMAS"
   },
@@ -109,7 +109,7 @@ const itens = [
     id: "MANSÃO STARK",
     nome: "MANSÃO STARK",
     descCurta: "Contingente: 20",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/mansaostark.png",
     cat: "ARMAS"
   },
@@ -117,7 +117,7 @@ const itens = [
     id: "MANSÃO DA ILHA",
     nome: "MANSÃO DA ILHA",
     descCurta: "Contingente: 20",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/mansaodailha.png",
     cat: "ARMAS"
   },
@@ -125,7 +125,7 @@ const itens = [
     id: "CASA PERDIDA",
     nome: "CASA PERDIDA",
     descCurta: "Contingente: 20",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/casaperdida.png",
     cat: "ARMAS"
   },
@@ -133,7 +133,7 @@ const itens = [
     id: "FAVELA DO MORRO",
     nome: "FAVELA DO MORRO",
     descCurta: "Contingente: 20",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladomorro.png",
     cat: "ARMAS"
   },
@@ -142,7 +142,7 @@ const itens = [
     id: "FAVELA DA PEDREIRA",
     nome: "FAVELA DA PEDREIRA",
     descCurta: "Contingente: 20",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladapedreira.png",
     cat: "ARMAS"
   },
@@ -150,7 +150,7 @@ const itens = [
     id: "BUNKER",
     nome: "BUNKER",
     descCurta: "Contingente: 20",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/bunker.png",
     cat: "ARMAS"
   },
@@ -158,7 +158,7 @@ const itens = [
     id: "CAMPINHO",
     nome: "CAMPINHO",
     descCurta: "Contingente: 10",
-    descricao: "LEAN \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/campinho.png",
     cat: "DROGAS"
   },
@@ -166,7 +166,7 @@ const itens = [
     id: "FAVELA DA DESCIDA",
     nome: "FAVELA DA DESCIDA",
     descCurta: "Contingente: 10",
-    descricao: "COCAINA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladadescida.png",
     cat: "DROGAS"
   },
@@ -174,7 +174,7 @@ const itens = [
     id: "FAVELA DO TREM",
     nome: "FAVELA DO TREM",
     descCurta: "Contingente: 10",
-    descricao: "METAFETAMINA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladotrem.png",
     cat: "DROGAS"
   },
@@ -182,7 +182,7 @@ const itens = [
     id: "FAVELA DOS ARTISTAS",
     nome: "FAVELA DOS ARTISTAS",
     descCurta: "Contingente: 10",
-    descricao: "METAFETAMINA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladosartistas.png",
     cat: "DROGAS"
   },
@@ -190,7 +190,7 @@ const itens = [
     id: "FAVELA DA PISTA",
     nome: "FAVELA DA PISTA",
     descCurta: "Contingente: 10",
-    descricao: "LEAN \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladapista.png",
     cat: "DROGAS"
   },
@@ -198,7 +198,7 @@ const itens = [
     id: "COMPLEXO DO SOL",
     nome: "COMPLEXO DO SOL",
     descCurta: "Contingente: 10",
-    descricao: "LEAN \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/complexodosol.png",
     cat: "DROGAS"
   },
@@ -206,7 +206,7 @@ const itens = [
     id: "FAVELA DO LIXÃO",
     nome: "FAVELA DO LIXÃO",
     descCurta: "Contingente: 10",
-    descricao: "HEROINA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladolixao.png",
     cat: "DROGAS"
   },
@@ -214,7 +214,7 @@ const itens = [
     id: "FAVELA DE VINEWOOD",
     nome: "FAVELA DE VINEWOOD",
     descCurta: "Contingente: 10",
-    descricao: "HEROINA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladevinewood.png",
     cat: "DROGAS"
   },
@@ -222,7 +222,7 @@ const itens = [
     id: "FAVELA DA PONTE",
     nome: "FAVELA DA PONTE",
     descCurta: "Contingente: 10",
-    descricao: "HEROINA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladaponte.png",
     cat: "DROGAS"
   },
@@ -230,7 +230,7 @@ const itens = [
     id: "FAVELA DO ESGOTO",
     nome: "FAVELA DO ESGOTO",
     descCurta: "Contingente: 10",
-    descricao: "HEROINA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladoesgoto.png",
     cat: "DROGAS"
   },
@@ -238,7 +238,7 @@ const itens = [
     id: "FAVELA DA BRISA",
     nome: "FAVELA DA BRISA",
     descCurta: "Contingente: 10",
-    descricao: "HEROINA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladabrisa.png",
     cat: "DROGAS"
   },
@@ -246,7 +246,7 @@ const itens = [
     id: "FERRO VELHO",
     nome: "FERRO VELHO",
     descCurta: "Contingente: 10",
-    descricao: "MACONHA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/ferrovelho.png",
     cat: "DROGAS"
   },
@@ -254,7 +254,7 @@ const itens = [
     id: "CASA DA PRAIA",
     nome: "CASA DA PRAIA",
     descCurta: "Contingente: 10",
-    descricao: "COCAINA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/casadapraia.png",
     cat: "DROGAS"
   },
@@ -262,7 +262,7 @@ const itens = [
     id: "CASA CINZA",
     nome: "CASA CINZA",
     descCurta: "Contingente: 10",
-    descricao: "COCAINA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/casacinza.png",
     cat: "DROGAS"
   },
@@ -270,7 +270,7 @@ const itens = [
     id: "BLOODS",
     nome: "BLOODS",
     descCurta: "Contingente: 10",
-    descricao: "MACONHA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/bloods.png",
     cat: "DROGAS"
   },
@@ -278,7 +278,7 @@ const itens = [
     id: "BALLAS",
     nome: "BALLAS",
     descCurta: "Contingente: 10",
-    descricao: "MACONHA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/ballas.png",
     cat: "DROGAS"
   },
@@ -286,7 +286,7 @@ const itens = [
     id: "GROOVE",
     nome: "GROOVE",
     descCurta: "Contingente: 10",
-    descricao: "MACONHA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/groove.png",
     cat: "DROGAS"
   },
@@ -294,7 +294,7 @@ const itens = [
     id: "CONTAINER",
     nome: "CONTAINER",
     descCurta: "Contingente: 10",
-    descricao: "COCAINA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/container.png",
     cat: "DROGAS"
   },
@@ -302,7 +302,7 @@ const itens = [
     id: "MANSÃO HORIZONTE",
     nome: "MANSÃO HORIZONTE",
     descCurta: "Contingente: 10",
-    descricao: "MACONHA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/mansaohorizonte.png",
     cat: "DROGAS"
   },
@@ -310,7 +310,7 @@ const itens = [
     id: "AUSTRALIA",
     nome: "AUSTRALIA",
     descCurta: "Contingente: 10",
-    descricao: "COCAINA \n20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/australia.png",
     cat: "DROGAS"
   },
@@ -318,7 +318,7 @@ const itens = [
     id: "VINHEDO",
     nome: "VINHEDO",
     descCurta: "Contingente: 15",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/vinhedo.png",
     cat: "MUNIÇÃO"
   },
@@ -326,7 +326,7 @@ const itens = [
     id: "FAVELA DO PORTO",
     nome: "FAVELA DO PORTO",
     descCurta: "Contingente: 15",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladoporto.png",
     cat: "MUNIÇÃO"
   },
@@ -334,7 +334,7 @@ const itens = [
     id: "TROPICAL VILLA",
     nome: "TROPICAL VILLA",
     descCurta: "Contingente: 15",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/tropicalvilla.png",
     cat: "MUNIÇÃO"
   },
@@ -342,7 +342,7 @@ const itens = [
     id: "FAZENDA",
     nome: "FAZENDA",
     descCurta: "Contingente: 15",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/fazenda.png",
     cat: "MUNIÇÃO"
   },
@@ -350,7 +350,7 @@ const itens = [
     id: "FAVELA DO CATAVENTO",
     nome: "FAVELA DO CATAVENTO",
     descCurta: "Contingente: 15",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladocatavento.png",
     cat: "MUNIÇÃO"
   },
@@ -358,7 +358,7 @@ const itens = [
     id: "YAKUZA",
     nome: "YAKUZA",
     descCurta: "Contingente: 15",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/yakuza.png",
     cat: "MUNIÇÃO"
   },
@@ -366,7 +366,7 @@ const itens = [
     id: "HELIPA",
     nome: "HELIPA",
     descCurta: "Contingente: 15",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/helipa.png",
     cat: "MUNIÇÃO"
   },
@@ -374,7 +374,7 @@ const itens = [
     id: "TRIAD",
     nome: "TRIAD",
     descCurta: "Contingente: 15",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/triad.png",
     cat: "MUNIÇÃO"
   },
@@ -382,7 +382,7 @@ const itens = [
     id: "MANSÃO MALIBU",
     nome: "MANSÃO MALIBU",
     descCurta: "Contingente: 15",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/mansaomalibu.png",
     cat: "MUNIÇÃO"
   },
@@ -390,7 +390,7 @@ const itens = [
     id: "MANSÃO FORTUNE",
     nome: "MANSÃO FORTUNE",
     descCurta: "Contingente: 15",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/mansaofortune.png",
     cat: "MUNIÇÃO"
   },
@@ -398,7 +398,7 @@ const itens = [
     id: "SCARFACE",
     nome: "SCARFACE",
     descCurta: "Contingente: 15",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/scarface.png",
     cat: "MUNIÇÃO"
   },
@@ -406,7 +406,7 @@ const itens = [
     id: "PACIFIC",
     nome: "PACIFIC",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/pacific.png",
     cat: "DESMANCHE"
   },
@@ -414,7 +414,7 @@ const itens = [
     id: "FAVELA DA PRAIA",
     nome: "FAVELA DA PRAIA",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladapraia.png",
     cat: "DESMANCHE"
   },
@@ -422,7 +422,7 @@ const itens = [
     id: "FAVELA DA AGUA",
     nome: "FAVELA DA AGUA",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/faveladaagua.png",
     cat: "DESMANCHE"
   },
@@ -430,7 +430,7 @@ const itens = [
     id: "LACOSTE",
     nome: "LACOSTE",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/lacoste.png",
     cat: "DESMANCHE"
   },
@@ -438,7 +438,7 @@ const itens = [
     id: "HAYES AUTOS",
     nome: "HAYES AUTOS",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/heyesautos.png",
     cat: "DESMANCHE"
   },
@@ -446,7 +446,7 @@ const itens = [
     id: "HELLS ANGELS",
     nome: "HELLS ANGELS",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/hellsangels.png",
     cat: "DESMANCHE"
   },
@@ -454,7 +454,7 @@ const itens = [
     id: "MOTO CLUBE",
     nome: "MOTO CLUBE",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/motoclube.png",
     cat: "DESMANCHE"
   },
@@ -462,7 +462,7 @@ const itens = [
     id: "LOST",
     nome: "LOST",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/lost.png",
     cat: "DESMANCHE"
   },
@@ -470,7 +470,7 @@ const itens = [
     id: "CLUB77",
     nome: "CLUB77",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/club77.png",
     cat: "LAVAGEM"
   },
@@ -478,7 +478,7 @@ const itens = [
     id: "WIWANG",
     nome: "WIWANG",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/wiwang.png",
     cat: "LAVAGEM"
   },
@@ -486,7 +486,7 @@ const itens = [
     id: "MANSÃO PLAYBOY",
     nome: "MANSÃO PLAYBOY",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/mansaoplayboy.png",
     cat: "LAVAGEM"
   },
@@ -494,7 +494,7 @@ const itens = [
     id: "BAHAMAS",
     nome: "BAHAMAS",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/bahamas.png",
     cat: "LAVAGEM"
   },
@@ -502,7 +502,7 @@ const itens = [
     id: "MANSÃO BOA VISTA",
     nome: "MANSÃO BOA VISTA",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/mansaoboavista.png",
     cat: "LAVAGEM"
   },
@@ -510,7 +510,7 @@ const itens = [
     id: "CASSINO",
     nome: "CASSINO",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/cassino.png",
     cat: "LAVAGEM"
   },
@@ -518,7 +518,7 @@ const itens = [
     id: "VANILLA",
     nome: "VANILLA",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/vanilla.png",
     cat: "LAVAGEM"
   },
@@ -526,7 +526,7 @@ const itens = [
     id: "LUX",
     nome: "LUX",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/lux.png",
     cat: "LAVAGEM"
   },
@@ -534,7 +534,7 @@ const itens = [
     id: "LS CLUB",
     nome: "LS CLUB",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/lsclub.png",
     cat: "LAVAGEM"
   },
@@ -542,7 +542,7 @@ const itens = [
     id: "VANILLA PALETO",
     nome: "VANILLA PALETO",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/vanillapaleto.png",
     cat: "LAVAGEM"
   },
@@ -550,7 +550,7 @@ const itens = [
     id: "VAGOS",
     nome: "VAGOS",
     descCurta: "Contingente: 10",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/vagos.png",
     cat: "LAVAGEM"
   },
