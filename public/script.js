@@ -50,9 +50,9 @@ const itens = [
 
   {
     id: "BARRAGEM",
-    nome: "BARRAGEM",
+    nome: "🎁 RECOMPENSAS POR MEMBROS NA FACÇÃO 🎁",
     descCurta: "Contingente: 30",
-    descricao: "20 pessoas = kit fac\n35 pessoas = uniforme para a fac\n45 pessoas = blindado pro 00",
+    descricao: " 👥 10 pessoas na facção  \n➜ Liberação de Kit Facção \n\n👥20 pessoas na facção \n➜ 1 Blindado exclusivo para o 01 \n\n👥30 pessoas na facção \n➜ Uniforme da facção grátis",
     img: "img/barragem.png",
     cat: "ARMAS"
   },
